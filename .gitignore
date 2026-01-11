@@ -1,0 +1,12 @@
+# Dependencies
+.spago/
+node_modules/
+
+# Build output
+output/
+
+# Editor files
+.idea/
+*.swp
+*~
+.DS_Store

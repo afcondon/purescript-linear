@@ -1,0 +1,18 @@
+package:
+  name: linear
+  dependencies:
+    - prelude
+    - maybe
+    - foldable-traversable
+    - newtype
+    - control
+    - numbers
+  test:
+    main: Test.Main
+    dependencies:
+      - quickcheck
+      - gen
+
+workspace:
+  packageSet:
+    registry: 70.0.0
