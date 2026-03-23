@@ -1,12 +1,18 @@
 package:
   name: linear
+  description: "Linear algebra for PureScript: vectors, matrices, quaternions (port of Edward Kmett's Haskell linear library)"
+  publish:
+    version: 0.1.0
+    license: BSD-3-Clause
+    location:
+      githubOwner: afcondon
+      githubRepo: purescript-linear
   dependencies:
-    - prelude
-    - maybe
-    - foldable-traversable
-    - newtype
-    - control
-    - numbers
+    - foldable-traversable: ">=6.0.0 <7.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - newtype: ">=5.0.0 <6.0.0"
+    - numbers: ">=9.0.1 <10.0.0"
+    - prelude: ">=6.0.2 <7.0.0"
   test:
     main: Test.Main
     dependencies:
